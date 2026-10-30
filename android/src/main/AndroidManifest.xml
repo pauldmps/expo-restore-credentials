@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- Lets the module read the Google Play services version on Android 11+ (package visibility). -->
+  <queries>
+    <package android:name="com.google.android.gms" />
+  </queries>
+</manifest>

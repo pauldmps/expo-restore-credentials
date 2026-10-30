@@ -1,0 +1,28 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+
+group = 'expo.modules.restorecredentials'
+version = '0.1.0'
+
+// Restore Credentials APIs were added in androidx.credentials 1.5.0. Apps can pin a different
+// version with the `credentialsVersion` config plugin option (written to gradle.properties).
+def credentialsVersion = rootProject.findProperty('expoRestoreCredentials.credentialsVersion') ?: '1.6.0'
+
+android {
+  namespace "expo.modules.restorecredentials"
+  defaultConfig {
+    versionCode 1
+    versionName "0.1.0"
+    consumerProguardFiles 'proguard-rules.pro'
+  }
+  lintOptions {
+    abortOnError false
+  }
+}
+
+dependencies {
+  implementation "androidx.credentials:credentials:${credentialsVersion}"
+  implementation "androidx.credentials:credentials-play-services-auth:${credentialsVersion}"
+}
