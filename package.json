@@ -24,13 +24,13 @@
     "zero-tap",
     "config-plugin"
   ],
-  "repository": "https://github.com/shantanupaul/expo-restore-credentials",
+  "repository": "https://github.com/pauldmps/expo-restore-credentials",
   "bugs": {
-    "url": "https://github.com/shantanupaul/expo-restore-credentials/issues"
+    "url": "https://github.com/pauldmps/expo-restore-credentials/issues"
   },
-  "author": "Shantanu Paul <shantanupaul@live.com> (https://github.com/shantanupaul)",
+  "author": "Shantanu Paul <shantanupaul@live.com> (https://github.com/pauldmps)",
   "license": "MIT",
-  "homepage": "https://github.com/shantanupaul/expo-restore-credentials#readme",
+  "homepage": "https://github.com/pauldmps/expo-restore-credentials#readme",
   "devDependencies": {
     "@babel/core": "^7.26.0",
     "@react-native/jest-preset": "0.88.1",
