@@ -55,7 +55,9 @@
     ]
   },
   "peerDependencies": {
-    "expo": "*"
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
   },
   "files": [
     "build",
@@ -66,10 +68,5 @@
     "app.plugin.js",
     "expo-module.config.json",
     "src"
-  ],
-  "dependencies": {
-    "expo": "~58.0.21",
-    "react": "19.3.0",
-    "react-native": "0.88.1"
-  }
+  ]
 }

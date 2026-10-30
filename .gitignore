@@ -60,3 +60,4 @@ yarn-error.log
 example/android/
 example/ios/
 example/.expo/
+*.tgz
