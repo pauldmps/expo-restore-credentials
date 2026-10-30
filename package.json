@@ -1,6 +1,6 @@
 {
   "name": "expo-restore-credentials",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Android Restore Credentials (zero-tap sign-in restoration) for Expo apps",
   "main": "build/index.js",
   "types": "build/index.d.ts",
